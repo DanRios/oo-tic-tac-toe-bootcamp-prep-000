@@ -92,7 +92,7 @@ def won?
   false
 end
 
-def full?(board)
+def full?
 !@board.find{|i| i == " "}
 end
 
