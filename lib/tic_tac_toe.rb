@@ -59,7 +59,7 @@ end
 
 def turn_count(board)
   counter = 0
-  board.each do |move|
+  @board.each do |move|
     if move == "X" || move == "O"
       then counter += 1
 end
