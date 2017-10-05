@@ -5,8 +5,6 @@ class TicTacToe
   end
 end
 
-
-
 WIN_COMBINATIONS = [
   [0, 1, 2], #top_row_win
   [3, 4, 5], #middle_row_win
