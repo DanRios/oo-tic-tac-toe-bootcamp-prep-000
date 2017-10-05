@@ -123,7 +123,7 @@ until over?(board) || draw?(board)
 end
 if won?
   puts "Congratulations #{winner(board)}!"
-else draw?(board) == true
+else draw? == true
   puts "Cat's Game!"
 end
 end
