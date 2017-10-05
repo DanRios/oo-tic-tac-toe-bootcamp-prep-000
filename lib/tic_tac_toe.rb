@@ -110,7 +110,7 @@ end
 def winner(board)
   done = won?
   if done
-    board[done[0]]
+    @board[done[0]]
   else
     nil
   end
