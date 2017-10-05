@@ -34,10 +34,8 @@ end
 def position_taken?(index)
   if @board[index] == "X" || @board[index] == "O")
     true
-else
-  nil
-end
-end
+  end
+  
 
 
 def valid_move?(board,index)
