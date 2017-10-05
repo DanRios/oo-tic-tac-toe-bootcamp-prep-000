@@ -115,3 +115,15 @@ def winner(board)
     nil
   end
 end
+
+def play(board)
+until over?(board) || draw?(board)
+  current_player(board)
+  turn(board)
+end
+if won?(board)
+  puts "Congratulations #{winner(board)}!"
+else draw?(board) == true
+  puts "Cat's Game!"
+end
+
