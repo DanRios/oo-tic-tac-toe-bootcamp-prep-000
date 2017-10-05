@@ -116,7 +116,7 @@ def winner
   end
 end
 
-def play(board)
+def play
 until over? || draw?
   current_player
   turn
