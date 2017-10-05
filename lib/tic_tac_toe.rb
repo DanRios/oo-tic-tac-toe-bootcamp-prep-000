@@ -57,7 +57,7 @@ end
 end
 
 
-def turn_count(board)
+def turn_count
   counter = 0
   @board.each do |move|
     if move == "X" || move == "O"
