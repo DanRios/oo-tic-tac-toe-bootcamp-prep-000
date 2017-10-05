@@ -107,7 +107,7 @@ def over?
   false
 end
 
-def winner(board)
+def winner
   done = won?
   if done
     @board[done[0]]
