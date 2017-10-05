@@ -35,7 +35,7 @@ def position_taken?(index)
   if @board[index] == "X" || @board[index] == "O")
   true
 else
-  false
+  nil
 end
 end
 
