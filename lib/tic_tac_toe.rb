@@ -127,4 +127,3 @@ else draw?(board) == true
 end
 end
 end
-
