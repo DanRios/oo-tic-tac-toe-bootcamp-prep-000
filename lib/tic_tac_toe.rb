@@ -77,13 +77,13 @@ end
 end
 
 
-def won?(board)
+def won?
   WIN_COMBINATIONS.each do |winning|
     win_x = winning.all? do |index|
-      board[index] == "X"
+      @board[index] == "X"
     end
     win_o = winning.all? do |index|
-      board[index] == "O"
+      @board[index] == "O"
     end
     if win_x || win_o
       return winning
