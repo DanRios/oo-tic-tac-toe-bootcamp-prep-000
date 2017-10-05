@@ -96,8 +96,8 @@ def full?
 !@board.find{|i| i == " "}
 end
 
-def draw?(board)
-  full?(board) && !won?(board)
+def draw?
+  full? && !won?
 end
 
 def over?(board)
@@ -121,7 +121,7 @@ until over?(board) || draw?(board)
   current_player(board)
   turn(board)
 end
-if won?(board)
+if won?
   puts "Congratulations #{winner(board)}!"
 else draw?(board) == true
   puts "Cat's Game!"
