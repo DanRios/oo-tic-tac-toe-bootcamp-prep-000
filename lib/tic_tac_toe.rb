@@ -76,6 +76,7 @@ if turn_count(board) % 2 != 0
 else
   "X"
 end
+end
 
 
 def won?(board)
