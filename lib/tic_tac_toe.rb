@@ -118,8 +118,8 @@ end
 
 def play(board)
 until over? || draw?
-  current_player(board)
-  turn(board)
+  current_player
+  turn
 end
 if won?
   puts "Congratulations #{winner(board)}!"
