@@ -93,7 +93,7 @@ def won?
 end
 
 def full?(board)
-!board.find{|i| i == " "}
+!@board.find{|i| i == " "}
 end
 
 def draw?(board)
